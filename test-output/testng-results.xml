@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="xmlparameterization" duration-ms="16151" started-at="2020-09-07T06:05:29Z" finished-at="2020-09-07T06:05:45Z">
+    <groups>
+    </groups>
+    <test name="TestData1" duration-ms="10237" started-at="2020-09-07T06:05:29Z" finished-at="2020-09-07T06:05:39Z">
+      <class name="com.TestNGscripts.ParameterizationXML">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestNGscripts.ParameterizationXML@14ec4505]" name="setup" is-config="true" duration-ms="6136" started-at="2020-09-07T01:05:29Z" finished-at="2020-09-07T01:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.TestNGscripts.ParameterizationXML@14ec4505]" name="createAccount" duration-ms="0" started-at="2020-09-07T01:05:35Z" finished-at="2020-09-07T01:05:35Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Pword' is required by @Test on method createAccount but has not been marked @Optional or defined
+in C:\Users\New Pc\eclipse-workspace\MavenTestDemo8PM\parameterizationrunner.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Pword' is required by @Test on method createAccount but has not been marked @Optional or defined
+in C:\Users\New Pc\eclipse-workspace\MavenTestDemo8PM\parameterizationrunner.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:363)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNGscripts.ParameterizationXML@14ec4505]" name="closeBrowser" is-config="true" duration-ms="4080" started-at="2020-09-07T01:05:35Z" finished-at="2020-09-07T01:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNGscripts.ParameterizationXML -->
+    </test> <!-- TestData1 -->
+    <test name="TestData2" duration-ms="5900" started-at="2020-09-07T06:05:39Z" finished-at="2020-09-07T06:05:45Z">
+      <class name="com.TestNGscripts.ParameterizationXML">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestNGscripts.ParameterizationXML@3b2cf7ab]" name="setup" is-config="true" duration-ms="5775" started-at="2020-09-07T01:05:39Z" finished-at="2020-09-07T01:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.TestNGscripts.ParameterizationXML@3b2cf7ab]" name="createAccount" duration-ms="0" started-at="2020-09-07T01:05:45Z" finished-at="2020-09-07T01:05:45Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Pword' is required by @Test on method createAccount but has not been marked @Optional or defined
+in C:\Users\New Pc\eclipse-workspace\MavenTestDemo8PM\parameterizationrunner.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Pword' is required by @Test on method createAccount but has not been marked @Optional or defined
+in C:\Users\New Pc\eclipse-workspace\MavenTestDemo8PM\parameterizationrunner.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:363)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNGscripts.ParameterizationXML@3b2cf7ab]" name="closeBrowser" is-config="true" duration-ms="123" started-at="2020-09-07T01:05:45Z" finished-at="2020-09-07T01:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNGscripts.ParameterizationXML -->
+    </test> <!-- TestData2 -->
+  </suite> <!-- xmlparameterization -->
+</testng-results>

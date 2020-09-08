@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [xmlparameterization]">
+  <parameter name="Uname" value="emp1@0409"/>
+  <test name="TestData1(failed)">
+    <parameter name="Uname" value="admin123"/>
+    <classes>
+      <class name="com.TestNGscripts.ParameterizationXML">
+        <methods>
+          <include name="createAccount"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TestNGscripts.ParameterizationXML -->
+    </classes>
+  </test> <!-- TestData1(failed) -->
+  <test name="TestData2(failed)">
+    <parameter name="Uname" value="emp1@0409"/>
+    <classes>
+      <class name="com.TestNGscripts.ParameterizationXML">
+        <methods>
+          <include name="createAccount"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TestNGscripts.ParameterizationXML -->
+    </classes>
+  </test> <!-- TestData2(failed) -->
+</suite> <!-- Failed suite [xmlparameterization] -->

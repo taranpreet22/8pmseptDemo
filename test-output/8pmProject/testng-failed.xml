@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [8pmProject]">
+  <test name="Selenium Scripts(failed)">
+    <classes>
+      <class name="com.TestNGscripts.AnnotationsandWikiTest">
+        <methods>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+          <include name="MainPage"/>
+          <include name="setup"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.TestNGscripts.AnnotationsandWikiTest -->
+    </classes>
+  </test> <!-- Selenium Scripts(failed) -->
+</suite> <!-- Failed suite [8pmProject] -->
