@@ -2,7 +2,7 @@ package com.TestNGscripts;
 
 import org.junit.Test;
 
-public class githubDemo {
+public class homeloansGitdemo {
 
 	@Test
 	
